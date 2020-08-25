@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CategoriaResource {
 	@RequestMapping(method = RequestMethod.GET)
 	public String listar() {
-		return "Rest está funcionando";
+		return "Novo teste, Rest está funcionando";
 	}
 }
